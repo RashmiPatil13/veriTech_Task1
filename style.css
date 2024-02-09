@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+}
+.main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 150px; */
+}
+.sectionA {
+  margin-left: 200px;
+}
+#dash {
+  color: purple;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(190, 30, 190);
+  color: white;
+  width: 230px;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 200px;
+}
+.sectionB {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.name1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(190, 30, 190);
+  color: white;
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 160px;
+}
+.b {
+  margin-left: 100px;
+}
+.allname {
+  font-weight: 900;
+  font-size: large;
+}
+.name2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(190, 30, 190);
+  color: white;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 340px;
+}
+.name3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(190, 30, 190);
+  color: white;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 340px;
+}
+.incharge {
+  color: rgb(196, 54, 196);
+  font-style: italic;
+  margin-left: 20px;
+  font-size: large;
+}
+@media only screen and (max-width: 600px) {
+  .main {
+    width: 280%;
+  }
+}
